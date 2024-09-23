@@ -1,0 +1,183 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: whitesmoke;
+}
+
+
+.header{
+  display: flex;
+  align-items: center;
+  background-color:white;
+  width: 100%;
+  height: 68px;
+  padding: 12px 28px;
+  box-sizing: border-box;
+
+}
+.image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-1{
+border: 2px ;
+background-color:#f0f5ff;
+padding: 15px 20px;
+width:745px;
+border-radius:10px;
+display: flex;
+align-items: center;
+flex: 2.8;
+margin-left:30px;
+}
+.bi{
+  color:azure;
+}
+.search{
+border: none;
+background-color: #f0f5ff;
+margin-left: 15px;
+width: 270px;
+font-size:15px;
+outline: none;
+}
+.bi-person-circle{
+  color: black;
+}
+.header-left{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  flex:2;
+}
+
+.bi{
+  color: black;
+}
+
+.login{
+  border: none;
+  background-color:white;
+  outline: none;
+  cursor: pointer;
+}
+.login-1{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.cart{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.become{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.second{
+margin: 10px;
+background-color:white;
+height: 126px;
+display: flex;
+align-items: center;
+justify-content:space-evenly;
+padding: 15px 50px;
+box-sizing: border-box;
+}
+.imgg{
+display: flex;
+align-items: center;
+justify-self:center;
+flex-direction: column;
+cursor: pointer;
+
+}
+.container{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr  ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  height: 100vh;
+  width: 100vw;
+  grid-gap: 0.5rem;
+}
+.grid{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid black;
+  border-radius: 0.5rem;
+}
+.grid:hover{
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+.grid:not(:hover){
+  /* transform: scale(1.05); */
+  transition: 0.5s;
+}
+.grid img{
+  height: 70%;
+  width: 80%;
+}
+
+
+.grid2:hover{
+transform: rotate(360deg);
+transition: 3s;
+}
+.grid3:hover{
+  transform: skew(15deg);
+}
+.grid4:hover{
+  transform: skewy(20deg);
+}
+.grid5:hover{
+  transform: translate(160px);
+}
+.grid6:hover{
+  transform: rotate(360deg);
+  transition: 3s;
+  }
+  .grid7:hover{
+    transform: skew(15deg);
+  }
+  .grid8:hover{
+    transform: skewy(20deg);
+  }
+  .grid9:hover{
+    transform: translate(160px);
+  }
+  .grid13:hover{
+    transform: rotate(360deg);
+    transition: 3s;
+    }
+    .grid14:hover{
+      transform: skew(15deg);
+    }
+    .grid15:hover{
+      transform: skewy(20deg);
+    }
+    .grid16:hover{
+      transform: translate(160px);
+    }
+    
+  .grid10:hover{
+    transform: rotate(360deg);
+    transition: 3s;
+    }
+    .grid11:hover{
+      transform: skew(15deg);
+    }
+    .grid12:hover{
+      transform: skewy(20deg);
+    }
